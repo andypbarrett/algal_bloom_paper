@@ -10,5 +10,37 @@ Snow thickness data are from [Lagrangian Snow Distributions for Sea-Ice Applicat
 It is best to clone the repo and create a virtual environment.
 
 ```
-git clone
+git clone git@github.com:andypbarrett/algal_bloom_paper.git
 ```
+
+Creating a virtual environment will reduce clonflicts.  The required packages are all contained in `environment.yml`.  
+A virtual environment can be created using `conda` or `mamba`.  You will need to install `mamba` but it is more efficient that `conda`.
+
+```
+cd algal_bloom_paper
+```
+
+```
+mamba env create -f environment.yml
+```
+or
+```
+conda env create -f environment.yml
+```
+
+Then...
+```
+mamba activate algal-bloom-paper
+```
+or
+```
+conda activate algal-bloom-paper
+```
+
+## Usage
+
+```
+jupyter lab
+```
+
+And select the notebook.
