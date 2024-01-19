@@ -17,4 +17,4 @@ dependencies:
  - scipy
  - affine
  - pip:
-   - /home/apbarret/src/nsidc_projections
+   - git+https://github.com/andypbarrett/nsidc_projections.git
